@@ -4,16 +4,22 @@ b = int(input('Enter 2nd num:'))
 
 # Sum func
 def slojenie(a,b):
-    return a+b
+    return a + b
 
 # Subtraction func
 def vichit(a,b):
-    return a-b
+    return a - b
 
+# Multiply func
+def umnoj(a,b):
+    return a * b
+
+# Output
 
 s = slojenie(a,b)
 v = vichit(a,b)
+u = umnoj(a,b)
 
-# Output
 print(s)
 print(v)
+print(u)
