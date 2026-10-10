@@ -18,19 +18,12 @@ def vichit(a, b):
 def umnoj(a, b):
     return a * b
 
-# Division func
-
-def delit(a, b):
-    return a // b
-
 # Output
 
 s = sloj(a, b)
 v = vichit(a, b)
 u = umnoj(a, b)
-d = delit(a, b)
 
 print(s)
 print(v)
 print(u)
-print(d)
