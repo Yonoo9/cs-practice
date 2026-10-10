@@ -13,10 +13,17 @@ def sloj(a, b):
 def vichit(a, b):
     return a - b
 
+# Multiply func
+
+def umnoj(a, b):
+    return a * b
+
 # Output
 
 s = sloj(a, b)
 v = vichit(a, b)
+u = umnoj(a, b)
 
 print(s)
 print(v)
+print(u)
