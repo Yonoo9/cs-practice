@@ -8,8 +8,15 @@ b = int(input('Enter second num:'))
 def sloj(a, b):
     return a + b
 
+# Substraction func
+
+def vichit(a, b):
+    return a - b
+
 # Output
 
 s = sloj(a, b)
+v = vichit(a, b)
 
 print(s)
+print(v)
